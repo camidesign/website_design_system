@@ -21,7 +21,7 @@ body {
     width: 32%;
     text-align: center;
     margin: 20px auto;
-    min-height: 100px;
+    min-height: 120px;
     border-radius: 8px;
 }
 
@@ -61,4 +61,22 @@ body {
     width: 45%;
     padding: 0 16px 0 0;
     display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
 }
