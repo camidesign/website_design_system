@@ -1,5 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Public+Sans:wght@400;500;700&display=swap');
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0 10%;
 }
 
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    border-radius: 8px;
+}
+
+.yellow-red {
+    background-color: #f6bd60;
+}
+
+.linen {
+    background-color: #F7EDE2;
+}
+
+.baby-pink {
+    background-color: #F5CAC3;
+}
+
+.morning-blue {
+    background-color: #84A59D;
+    color: white;
+}
+
+.light-coral {
+    background-color: #F28482;
+}
