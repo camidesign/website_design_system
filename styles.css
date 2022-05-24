@@ -2,15 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 body {
     font-family: 'Inter', sans-serif;
-    margin: 0 10%;
+    margin: 56px 10%;
 }
 
 .container {
     border: 2px solid #e8e8e9;
-    padding: 10px;
-    margin: 10px auto;
+    padding: 5px 24px;
+    margin: 48px auto;
     border-radius: 8px;
 }
 
@@ -89,4 +91,23 @@ body {
 
 .public-sans {
     font-family: 'Public Sans', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.text-panel h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 16px;
 }
